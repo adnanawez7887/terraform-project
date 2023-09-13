@@ -4,7 +4,7 @@ region = "ap-southeast-1"
 }
 
 resource "aws_instance" "one" {
-  ami             = "ami-0b825ad86ddcfb907"
+  ami             = "ami-0f42fee27e4574e51"
   instance_type   = "t2.micro"
   key_name        = "git"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -23,7 +23,7 @@ EOF
 }
 
 resource "aws_instance" "two" {
-  ami             = "ami-0b825ad86ddcfb907"
+  ami             = "ami-0f42fee27e4574e51"
   instance_type   = "t2.micro"
   key_name        = "git"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -42,7 +42,7 @@ EOF
 }
 
 resource "aws_instance" "three" {
-  ami             = "ami-0b825ad86ddcfb907"
+  ami             = "ami-0f42fee27e4574e51"
   instance_type   = "t2.micro"
   key_name        = "git"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -53,7 +53,7 @@ resource "aws_instance" "three" {
 }
 
 resource "aws_instance" "four" {
-  ami             = "ami-0b825ad86ddcfb907"
+  ami             = "ami-0f42fee27e4574e51"
   instance_type   = "t2.micro"
   key_name        = "git"
   vpc_security_group_ids = [aws_security_group.five.id]
