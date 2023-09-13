@@ -88,7 +88,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "adnanawezbucket832955"
+  bucket = "adnanawezbucket8329551125"
 }
 
 resource "aws_iam_user" "seven" {
